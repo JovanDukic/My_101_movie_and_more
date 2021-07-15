@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.my_movie_collection">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/final_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/final_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/CustomAppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5558086212663763~5577635283" />
+
+        <activity
+            android:name=".app.ChangeActivity"
+            android:label="Adjust movie">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.my_movie_collection.app.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".app.SubActivity"
+            android:label="Create movie">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.my_movie_collection.app.MainActivity" />
+        </activity>
+
+        <activity android:name=".app.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

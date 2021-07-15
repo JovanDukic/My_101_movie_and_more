@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">My movie collection</string>
+    <string name="search">search</string>
+    <string name="add_movie">Add movie</string>
+    <string name="movie_name">Guardians of Galaxy</string>  <!-- 25 chars long movie name -->
+    <string name="date">22/10/2018</string>
+    <string name="movie_image">Movie image</string>
+    <string name="movie_title">Movie title:</string>
+    <string name="rating">Rating:</string>
+    <string name="select_image">Image:</string>
+    <string name="enter_the_movie_name">Enter the movie name</string>
+    <string name="buttonimage">buttonImage</string>
+    <string name="forward_button">Forward button</string>
+    <string name="back_button">Back button</string>
+    <string name="select_date_of_watching_movie">(select date of watching movie)</string>
+    <string name="finish">FINISH</string>
+    <string name="rating_5_0">Rating: 5.0</string>
+    <string name="preDate">Date:</string>
+    <string name="cinema">Cinema: Delta City</string>
+    <string name="list_layout">list layout</string>
+    <string name="grid_layout">grid layout</string>
+    <string name="_5_0">5.0</string>
+    <string name="cinema_xd">Cinema / Home</string>
+    <string name="CinemaHome">Leave empty for home</string>
+    <string name="date_xd">Date:</string>
+    <string name="select_date">Select date</string>
+    <string name="click_to_select_date">(click to select date)</string>
+    <string name="image">Image:</string>
+    <string name="save">Save</string>
+    <string name="genre">Genre:</string>
+    <string name="prompt">Select genre</string>
+    <string name="genre_action">Genre: Action</string>
+
+    <string-array name="Genres">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Drama</item>
+        <item>Fantasy</item>
+        <item>Historical</item>
+        <item>Horror</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Saga</item>
+        <item>Science Fiction</item>
+        <item>Thriller</item>
+        <item>Western</item>
+    </string-array>
+</resources>

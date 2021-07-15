@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/mainColor</item>
+        <item name="colorPrimaryDark">@color/mainDark</item>
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#D80000</item>
+        <item name="colorControlActivated">#BE0000</item>
+    </style>
+
+</resources>
