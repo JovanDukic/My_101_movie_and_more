@@ -1,4 +1,5 @@
 # My_101_movie_and_more
+Android app, requires Android Studio and emulator.
 
 **App screenshots:**<br/>
 
